@@ -1,0 +1,174 @@
+/*头部第一行样式*/
+
+/*字体*/
+.row-one>.tabs .tabs-item{
+    height: 40px;
+    padding: 20px;
+
+}
+.row-one>.tabs .tabs-item.active a{
+    color:#cf0103 ;
+}
+a,a:hover{
+    color:#000;
+}
+/*按钮*/
+.btn-conent{
+   height: 40px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.btn-conent>button{
+    margin: 0 5px;
+}
+/*下划线*/
+.row-two{
+    margin: 2px 0;
+    background: #bdbdbd;
+
+}
+.row-two>.tabs .tabs-item{
+    height: 2px;
+}
+.row-two>.tabs .tabs-item.active{
+    background: #cf0103;
+}
+/*选项卡框*/
+.header>.tab-content,
+.row-three >.tab-content{
+    border:1px solid #bdbdbd;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 2px 0;
+    background: #f8f8f8;
+}
+/*极小屏*/
+.row-three >.tab-content{
+    margin-top: -2px;
+    border-top: none;
+    background: none;
+}
+/*中间内容第一部分*/
+.search > .labels{
+    height: 40px;
+    line-height: 40px;
+}
+.search .labels>.label{
+    margin: 10px 5px;
+}
+/*第二部分*/
+.search .labels-bar{
+    border-bottom:1px solid #bdbdbd;
+    margin: 10px 0;
+    height: 30px;
+    background: #f8f8f8;
+}
+/*第三部分*/
+/*极小屏下搜索*/
+.search-phone > .tabs-header{
+    border: 1px solid #dbdbdb;
+    margin: 5px 0px;
+}
+.search-phone > .tabs-header > li{
+    line-height: 36px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+.search-phone > .tabs-header > li > a:after{
+    content: "";
+    height: 70%;
+    width: 1px;
+    background: #ddd;
+    display: inline-block;
+
+    position: absolute;
+    right: 0;
+    top:5px;
+}
+
+.search .search-conent .list-inline {
+    padding: 5px;
+}
+.search-conent .list-inline>li{
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.search-conent  .list-inline > li:first-child{
+    width: 120px;
+    text-align: left;
+}
+.search-conent  .list-inline > li.active > a{
+    color: #ffffff;
+    background: #d9534f;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+.search-conent  .list-inline> li:last-child{
+    border: 1px solid #dbdbdb;
+}
+.search .row-four > ul{
+    margin-bottom: 0;
+    padding: 5px;
+}
+.search .row-four > ul >li{
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+.search .row-four > ul >li.active{
+    color: #ffffff;
+    background: #d9534f;
+}
+.labels1{
+    border: 1px solid#ccc;
+    height: 30px;
+    background: #bdbdbd;
+}
+.labels1>label{
+    margin: 10px 10px;
+
+}
+.divtwo{
+    margin: 5px 0;
+    background: #fdf2f0;
+    border:1px solid #f2e2df;
+    height: 30px;
+    line-height: 30px;
+
+}
+thead>tr>th{
+    text-align: center;
+}
+thead>tr>th:nth-child(1){
+    margin-left: 8px;
+}
+tbody>tr>td{
+  text-align: center;
+}
+table thead>tr>th,tbody>tr>td{
+    border: 1px solid#ffffff;
+}
+tbody>tr:nth-child(even){
+    background:#E8F0FB;
+}
+
+.footer{
+    border: 1px solid#AC0202;
+    background: #AC0202;
+    height: 45px;
+    line-height: 45px;
+   
+    overflow: hidden;
+
+}
+.footer .navbar ul{
+    margin-left: 250px;
+
+}
+.footer .navbar ul>li{
+    margin:0 10px;
+    color:#fff;
+}
